@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/left_chat_text_view"
             android:textColor="@color/black"
-            android:textSize="18sp"
+            android:textSize="18sp"/>
 <!--            android:text="How are You.\nI am ChatBot made by Nmiet Students"-->
 <!--            android:textSize="20dp"/>-->
     </LinearLayout>
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/right_chat_text_view"
             android:textColor="@color/black"
-            android:textSize="18dp"
+            android:textSize="18dp"/>
 <!--            android:text="How are You.\nI am ChatBot made by Nmiet Students"-->
         <!--            android:textSize="20dp"/>-->
     </LinearLayout>

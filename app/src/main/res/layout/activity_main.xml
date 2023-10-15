@@ -55,7 +55,7 @@
         android:id="@+id/send_btn"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginstart="10dp"
+        android:layout_marginLeft="10dp"
         android:padding="80dp"
         android:src="@drawable/baseline_send_24"
         android:background="?attr/selectableItemBackgroundBorderless"
