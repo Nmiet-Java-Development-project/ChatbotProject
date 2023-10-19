@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     MessageAdapter messageAdapter;
 
     String apiUrl = "https://api.openai.com/v1/chat/completions";
-    String apiKey = "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";
+    String apiKey = "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";
     OkHttpClient client = new OkHttpClient();
 
     public static final MediaType JSON = MediaType.get("application/json; charset=utf-8");
