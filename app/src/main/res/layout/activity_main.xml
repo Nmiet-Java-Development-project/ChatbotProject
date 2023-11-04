@@ -30,13 +30,13 @@
         android:padding="8dp"
         android:id="@+id/bottom_layout"
         android:background="@color/background_colour"/>
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/background" <!-- Use the resource identifier without the file extension -->
-    android:scaleType="centerCrop" <!-- Adjust as needed -->
-    android:alpha="0.6" <!-- Adjust the alpha for transparency -->
-    />
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:src="@drawable/background"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:alpha="0.7"-->
+<!--    />-->
 
 
     <EditText
@@ -49,14 +49,15 @@
         android:layout_marginTop="13dp"
         android:layout_marginEnd="13dp"
         android:layout_marginBottom="13dp"
+        android:textColor="@color/black"
         android:layout_toLeftOf="@id/send_btn"
         android:background="@drawable/curve_corner"
-        android:backgroundTint="@color/For_edittext"
+        android:backgroundTint="@color/white"
         android:hint="Ask a question"
         android:padding="16dp"
-        android:textColorHint="@color/white" />
+        android:textColorHint="@color/black" />
     <ImageButton
-        android:layout_width="56dp"
+        android:layout_width="70dp"
         android:layout_height="80dp"
         android:id="@+id/send_btn"
         android:layout_alignParentEnd="true"
